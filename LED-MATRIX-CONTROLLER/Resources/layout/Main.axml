@@ -57,6 +57,13 @@
         p1:textColor="#ff3f51b5"
         p1:entries="@array/sports_array"
         p1:background="@drawable/connect_button" />
+    <ImageView
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_alignParentRight="true"
+        p1:layout_centerVertical="true"
+        p1:src="@drawable/drop_down_icon"
+        tools:visibility="visible" />
     <TextView
         p1:id="@+id/list_of_bluetooth_text_view"
         p1:text="Select from paired devices"
