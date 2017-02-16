@@ -15,15 +15,6 @@ namespace LEDMATRIXCONTROLLER
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
-            ActionBar.SetHomeButtonEnabled(true);
-            ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
-            var tab1 = ActionBar.NewTab();
-            tab1.SetText("Settings");
-            tab1.SetIcon(Resource.Mipmap.Settings_Icon);
-            tab1.TabSelected += Tab1_TabSelected;
-            ActionBar.AddTab(tab1);
-
-            ActionBar.Show();
 
 			// Get our button from the layout resource,
 			// and attach an event to it
