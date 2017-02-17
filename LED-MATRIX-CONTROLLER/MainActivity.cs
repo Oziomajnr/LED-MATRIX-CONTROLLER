@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace LEDMATRIXCONTROLLER
 {
-	[Activity (Label = "LED-MATRIX-CONTROLLER", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "LED-MATRIX-CONTROLLER", MainLauncher = true, Icon = "@mipmap/icon",ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
 	public class MainActivity : Activity
 	{
         Android.App.ProgressDialog progress;
@@ -31,11 +31,7 @@ namespace LEDMATRIXCONTROLLER
                 progress.Show();
             };
 		}
-
-        private void Tab1_TabSelected(object sender, ActionBar.TabEventArgs e)
-        {
-            e.FragmentTransaction.Add();
-        }
+       
     }
 }
 

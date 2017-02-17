@@ -89,7 +89,10 @@ namespace LEDMATRIXCONTROLLER
 			public const int connect_button = 2131230721;
 			
 			// aapt resource value: 0x7f080006
-			public const int imageView1 = 2131230726;
+			public const int img_btn_forward = 2131230726;
+			
+			// aapt resource value: 0x7f080007
+			public const int linearLayout1 = 2131230727;
 			
 			// aapt resource value: 0x7f080004
 			public const int list_of_bluetooth_spinner = 2131230724;
@@ -120,10 +123,10 @@ namespace LEDMATRIXCONTROLLER
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int ActionBar = 2130968576;
+			public const int Main = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int Main = 2130968577;
+			public const int Settings = 2130968577;
 			
 			static Layout()
 			{
@@ -139,10 +142,22 @@ namespace LEDMATRIXCONTROLLER
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Icon = 2130903040;
+			public const int ic_arrow_drop_down_black_24dp = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Settings_Icon = 2130903041;
+			public const int ic_chevron_right_black_24dp = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int ic_refresh_black_24dp = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int ic_settings_black_24dp = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Icon = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Settings_Icon = 2130903045;
 			
 			static Mipmap()
 			{

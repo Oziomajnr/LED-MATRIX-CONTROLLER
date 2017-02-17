@@ -15,6 +15,7 @@
         p1:id="@+id/connect_button"
         p1:layout_alignParentStart="false"
         p1:layout_centerInParent="true"
+        p1:layout_marginTop="8dp"
         p1:background="@drawable/connect_button" />
     <EditText
         p1:layout_width="match_parent"
@@ -34,7 +35,8 @@
         p1:textColor="#ffffffff"
         p1:textIsSelectable="false"
         p1:textStyle="normal"
-        p1:textSize="20dp" />
+        p1:textSize="20dp"
+        p1:layout_marginEnd="24dp" />
     <TextView
         p1:id="@+id/password_textview"
         p1:layout_width="match_parent"
@@ -55,18 +57,25 @@
         p1:layout_centerInParent="true"
         p1:layout_below="@+id/list_of_bluetooth_text_view"
         p1:textColor="#ff3f51b5"
-        p1:entries="@array/sports_array"
-        p1:background="@drawable/connect_button" />
+        p1:background="@drawable/connect_button"
+        p1:entries="@array/sports_array" />
     <ImageView
         p1:layout_width="wrap_content"
         p1:layout_height="wrap_content"
         p1:layout_alignParentRight="true"
-        p1:layout_alignBottom ="@id/list_of_bluetooth_spinner"
-        p1:layout_alignTop ="@id/list_of_bluetooth_spinner"
-        p1:layout_alignRight ="@id/list_of_bluetooth_spinner"
-        p1:src="@drawable/drop_down_icon"
-        tools:visibility="visible"
-        p1:id="@+id/imageView1" />
+        p1:layout_alignBottom="@id/list_of_bluetooth_spinner"
+        p1:layout_alignTop="@id/list_of_bluetooth_spinner"
+        p1:layout_alignRight="@id/list_of_bluetooth_spinner"
+        p1:src="@mipmap/ic_arrow_drop_down_black_24dp"
+        tools:visibility="visible" />
+    <ImageButton
+        p1:layout_width="38dp"
+        p1:layout_height="38dp"
+        p1:layout_centerHorizontal="true"
+        p1:background="@drawable/connect_button"
+        p1:src="@mipmap/ic_refresh_black_24dp"
+        p1:layout_marginTop="8dp"
+        p1:layout_below="@id/list_of_bluetooth_spinner" />
     <TextView
         p1:id="@+id/list_of_bluetooth_text_view"
         p1:text="Select from paired devices"
@@ -76,4 +85,15 @@
         p1:layout_centerInParent="true"
         p1:textColor="#ff212121"
         p1:textSize="20dp" />
+    <ImageButton
+        p1:id="@+id/img_btn_forward"
+        p1:layout_alignParentBottom="true"
+        p1:layout_alignParentEnd="true"
+        p1:layout_alignParentRight="true"
+        p1:layout_marginBottom="60dp"
+        p1:layout_marginRight="16dp"
+        p1:layout_height="wrap_content"
+        p1:layout_width="wrap_content"
+        p1:src="@mipmap/ic_chevron_right_black_24dp"
+        p1:background="@drawable/connect_button" />
 </RelativeLayout>
