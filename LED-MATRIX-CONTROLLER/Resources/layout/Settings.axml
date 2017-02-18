@@ -23,12 +23,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/seek_bar_brightness"
-                android:layout_centerInParent="true" />
+                android:layout_centerInParent="true"
+                android:max="100" />
             <SeekBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/seek_bar_speed"
-                android:layout_above="@id/txt_brightness" />
+                android:layout_marginBottom="24dp"
+                android:layout_above="@+id/txt_brightness"
+                android:max="100" />
+            <Spinner
+                android:id="@+id/spn_resolution"
+                android:text="Set Resolution"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/seek_bar_brightness"
+                android:textColor="#ff3f51b5"
+                android:background="@drawable/connect_button"
+                android:entries="@array/sports_array" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/spn_resolution"
+                android:layout_alignTop="@id/spn_resolution"
+                android:layout_alignRight="@id/spn_resolution"
+                android:src="@mipmap/ic_arrow_drop_down_black_24dp"
+                android:visibility="visible" />
+            <Button
+                android:text=" Set "
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/spn_resolution"
+                android:layout_alignTop="@id/spn_resolution"
+                android:layout_alignBottom="@id/spn_resolution"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/btn_resolution"
+                android:background="@drawable/connect_button" />
             <TextView
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"

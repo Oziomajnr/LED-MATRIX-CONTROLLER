@@ -68,6 +68,14 @@
         p1:layout_alignRight="@id/list_of_bluetooth_spinner"
         p1:src="@mipmap/ic_arrow_drop_down_black_24dp"
         tools:visibility="visible" />
+    <ImageView
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_alignBottom="@+id/password_text"
+        p1:layout_alignTop="@+id/password_text"
+        p1:layout_alignLeft="@+id/password_text"
+        p1:src="@mipmap/ic_lock_outline_black_24dp"
+        tools:visibility="visible" />
     <ImageButton
         p1:layout_width="38dp"
         p1:layout_height="38dp"
@@ -86,14 +94,14 @@
         p1:textColor="#ff212121"
         p1:textSize="20dp" />
     <ImageButton
-        p1:id="@+id/img_btn_forward"
+        p1:id="@+id/img_btn_1"
         p1:layout_alignParentBottom="true"
         p1:layout_alignParentEnd="true"
         p1:layout_alignParentRight="true"
-        p1:layout_marginBottom="60dp"
-        p1:layout_marginRight="16dp"
         p1:layout_height="wrap_content"
         p1:layout_width="wrap_content"
         p1:src="@mipmap/ic_chevron_right_black_24dp"
-        p1:background="@drawable/connect_button" />
+        p1:background="@drawable/connect_button"
+        p1:layout_marginRight="8dp"
+        p1:layout_marginBottom="52dp" />
 </RelativeLayout>

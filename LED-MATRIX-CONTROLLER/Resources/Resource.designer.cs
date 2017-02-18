@@ -85,11 +85,14 @@ namespace LEDMATRIXCONTROLLER
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f08000c
+			public const int btn_resolution = 2131230732;
+			
 			// aapt resource value: 0x7f080001
 			public const int connect_button = 2131230721;
 			
 			// aapt resource value: 0x7f080006
-			public const int img_btn_forward = 2131230726;
+			public const int img_btn_1 = 2131230726;
 			
 			// aapt resource value: 0x7f080007
 			public const int linearLayout1 = 2131230727;
@@ -108,6 +111,21 @@ namespace LEDMATRIXCONTROLLER
 			
 			// aapt resource value: 0x7f080000
 			public const int relativeLayout1 = 2131230720;
+			
+			// aapt resource value: 0x7f080008
+			public const int seek_bar_brightness = 2131230728;
+			
+			// aapt resource value: 0x7f080009
+			public const int seek_bar_speed = 2131230729;
+			
+			// aapt resource value: 0x7f08000b
+			public const int spn_resolution = 2131230731;
+			
+			// aapt resource value: 0x7f08000a
+			public const int txt_brightness = 2131230730;
+			
+			// aapt resource value: 0x7f08000d
+			public const int txt_speed = 2131230733;
 			
 			static Id()
 			{
@@ -148,16 +166,19 @@ namespace LEDMATRIXCONTROLLER
 			public const int ic_chevron_right_black_24dp = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ic_refresh_black_24dp = 2130903042;
+			public const int ic_lock_outline_black_24dp = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int ic_settings_black_24dp = 2130903043;
+			public const int ic_refresh_black_24dp = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Icon = 2130903044;
+			public const int ic_settings_black_24dp = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Settings_Icon = 2130903045;
+			public const int Icon = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Settings_Icon = 2130903046;
 			
 			static Mipmap()
 			{
