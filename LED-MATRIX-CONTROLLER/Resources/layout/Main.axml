@@ -32,7 +32,7 @@
         p1:numeric="integer"
         p1:phoneNumber="false"
         p1:maxLength="4"
-        p1:textColor="#ffffffff"
+        p1:textColor="#000000"
         p1:textIsSelectable="false"
         p1:textStyle="normal"
         p1:textSize="20dp"
@@ -53,7 +53,7 @@
         p1:text="Select Device"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
-        p1:layout_alignParentTop="false"
+        p1:layout_alignParentBottom="false"
         p1:layout_centerInParent="true"
         p1:layout_below="@+id/list_of_bluetooth_text_view"
         p1:textColor="#ff3f51b5"
@@ -77,10 +77,10 @@
         p1:src="@mipmap/ic_lock_outline_black_24dp"
         tools:visibility="visible" />
     <ImageButton
-        p1:layout_width="38dp"
-        p1:layout_height="38dp"
+        p1:layout_width="52dp"
+        p1:layout_height="52dp"
         p1:layout_centerHorizontal="true"
-        p1:background="@drawable/connect_button"
+        p1:background="@drawable/round_button"
         p1:src="@mipmap/ic_refresh_black_24dp"
         p1:layout_marginTop="8dp"
         p1:layout_below="@id/list_of_bluetooth_spinner" />

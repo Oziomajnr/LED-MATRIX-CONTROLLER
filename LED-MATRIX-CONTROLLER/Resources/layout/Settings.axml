@@ -5,74 +5,129 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-    <LinearLayout
-        android:orientation="horizontal"
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/linearLayout1"
-        android:minWidth="25px"
-        android:minHeight="25px">
-        <RelativeLayout
-            android:minWidth="25px"
-            android:minHeight="25px"
+        android:id="@+id/relativeLayout1"
+        android:background="#ffe0f7fa">
+        <SeekBar
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/relativeLayout1"
-            android:background="#ffe0f7fa">
-            <SeekBar
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/seek_bar_brightness"
-                android:layout_centerInParent="true"
-                android:max="100" />
-            <SeekBar
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/seek_bar_speed"
-                android:layout_marginBottom="24dp"
-                android:layout_above="@+id/txt_brightness"
-                android:max="100" />
-            <Spinner
-                android:id="@+id/spn_resolution"
-                android:text="Set Resolution"
-                android:layout_width="248dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_below="@id/seek_bar_brightness"
-                android:textColor="#ff3f51b5"
-                android:background="@drawable/connect_button"
-                android:entries="@array/sports_array" />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/spn_resolution"
-                android:layout_alignTop="@id/spn_resolution"
-                android:layout_alignRight="@id/spn_resolution"
-                android:src="@mipmap/ic_arrow_drop_down_black_24dp"
-                android:visibility="visible" />
-            <Button
-                android:text=" Set "
-                android:layout_width="wrap_content"
-                android:layout_toRightOf="@id/spn_resolution"
-                android:layout_alignTop="@id/spn_resolution"
-                android:layout_alignBottom="@id/spn_resolution"
-                android:layout_marginLeft="16dp"
-                android:id="@+id/btn_resolution"
-                android:background="@drawable/connect_button" />
-            <TextView
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:id="@+id/txt_brightness"
-                android:text="Brightness "
-                android:layout_above="@id/seek_bar_brightness"
-                android:layout_marginBottom="8dp" />
-            <TextView
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:id="@+id/txt_speed"
-                android:text="Speed "
-                android:layout_above="@id/seek_bar_speed"
-                android:layout_marginBottom="8dp" />
-        </RelativeLayout>
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txt_speed"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/seek_bar_brightness"
+            android:max="100" />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seek_bar_speed"
+            android:layout_marginBottom="24dp"
+            android:layout_above="@+id/txt_resolution"
+            android:max="100" />
+        <Spinner
+            android:id="@+id/spn_resolution"
+            android:text="Set Resolution"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_centerVertical="false"
+            android:textColor="#ff3f51b5"
+            android:background="@drawable/connect_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:entries="@array/sports_array" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/spn_resolution"
+            android:layout_alignTop="@id/spn_resolution"
+            android:layout_alignRight="@id/spn_resolution"
+            android:src="@mipmap/ic_arrow_drop_down_black_24dp"
+            android:visibility="visible" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/edit_text_date"
+            android:layout_alignTop="@+id/edit_text_date"
+            android:layout_alignLeft="@+id/edit_text_date"
+            android:src="@mipmap/ic_date_range_black_24dp"
+            android:visibility="visible" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/edit_text_date"
+            android:layout_alignTop="@+id/edit_text_date"
+            android:layout_alignLeft="@+id/btn_resolution"
+            android:layout_alignRight="@+id/btn_resolution"
+            android:src="@mipmap/ic_date_range_black_24dp"
+            android:visibility="visible"
+            android:scaleType="fitCenter"
+            android:clickable="true"
+            android:tint="#ff0000ff"
+            android:background="@drawable/connect_button" />
+        <Button
+            android:text=" Set "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/spn_resolution"
+            android:layout_alignTop="@id/spn_resolution"
+            android:layout_alignBottom="@id/spn_resolution"
+            android:id="@+id/btn_resolution"
+            android:background="@drawable/connect_button"
+            android:layout_marginLeft="8dp" />
+        <Button
+            android:text=" Set Date "
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:id="@+id/btn_send_date"
+            android:background="@drawable/connect_button"
+            android:layout_below="@+id/edit_text_date"
+            android:layout_marginTop="8dp"
+            android:layout_alignLeft="@id/edit_text_date"
+            android:layout_marginLeft="90dp" />
+        <EditText xmlns:tools="http://schemas.android.com/tools"
+            android:layout_height="wrap_content"
+            android:layout_width="248dp"
+            android:id="@+id/edit_text_date"
+            android:layout_below="@+id/txt_set_date"
+            android:layout_marginTop="8dp"
+            android:layout_alignRight="@id/spn_resolution"
+            android:inputType="date"
+            style="@drawable/text_field"
+            android:background="@drawable/text_field"
+            android:editable="false"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txt_brightness"
+            android:text="Brightness "
+            android:layout_above="@id/seek_bar_brightness"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txt_speed"
+            android:text="Speed "
+            android:layout_above="@id/seek_bar_speed"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txt_resolution"
+            android:text="Set Resolution "
+            android:layout_above="@+id/spn_resolution"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txt_set_date"
+            android:text="Set Date "
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+    </RelativeLayout>
 </LinearLayout>
