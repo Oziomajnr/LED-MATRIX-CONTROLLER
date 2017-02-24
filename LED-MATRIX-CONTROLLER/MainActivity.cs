@@ -19,7 +19,7 @@ namespace LEDMATRIXCONTROLLER
 			// Get our button from the layout resource
             // and attach an event to it
             Button button = FindViewById<Button> (Resource.Id.connect_button);
-			
+           
 			    button.Click += delegate {
 
                 progress = new Android.App.ProgressDialog(this);

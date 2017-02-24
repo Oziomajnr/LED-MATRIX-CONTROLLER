@@ -19,15 +19,18 @@ namespace LEDMATRIXCONTROLLER
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            var fragTx = FragmentManager.BeginTransaction();
+            var frag = new DateFragment();
+            fragTx.Add(Resource.Id.relativeLayout1, frag);
+            fragTx.Commit();
             // Create your application here
             SetContentView(Resource.Layout.Settings);
-
+            
             //DatePicker date_picker = FindViewById<DatePicker>(Resource.Id.date_picker);
             //date_picker.SpinnersShown = true;
             //date_picker.CalendarViewShown = false;
 
-           
+
 
         }
     }

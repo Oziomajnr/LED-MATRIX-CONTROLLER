@@ -50,6 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateFragment.cs" />
+    <Compile Include="DatePickerDialogFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,6 +63,9 @@
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
     <AndroidResource Include="Resources\layout\Settings.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\date_picker_fragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

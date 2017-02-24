@@ -67,7 +67,8 @@
             android:scaleType="fitCenter"
             android:clickable="true"
             android:tint="#ff0000ff"
-            android:background="@drawable/connect_button" />
+            android:background="@drawable/connect_button"
+            android:id="@+id/btn_select_date" />
         <Button
             android:text=" Set "
             android:layout_width="wrap_content"
@@ -90,7 +91,7 @@
             android:layout_marginLeft="90dp" />
         <EditText xmlns:tools="http://schemas.android.com/tools"
             android:layout_height="wrap_content"
-            android:layout_width="248dp"
+            android:layout_width="match_parent"
             android:id="@+id/edit_text_date"
             android:layout_below="@+id/txt_set_date"
             android:layout_marginTop="8dp"
@@ -99,7 +100,9 @@
             style="@drawable/text_field"
             android:background="@drawable/text_field"
             android:editable="false"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp" />
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
