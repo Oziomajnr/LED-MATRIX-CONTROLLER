@@ -28,11 +28,27 @@ namespace LEDMATRIXCONTROLLER
 		{
 		}
 		
+		public partial class Animation
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int rotate_center = 2131034112;
+			
+			static Animation()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Animation()
+			{
+			}
+		}
+		
 		public partial class Array
 		{
 			
-			// aapt resource value: 0x7f0a0000
-			public const int sports_array = 2131361792;
+			// aapt resource value: 0x7f0b0000
+			public const int sports_array = 2131427328;
 			
 			static Array()
 			{
@@ -99,44 +115,44 @@ namespace LEDMATRIXCONTROLLER
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int calendar_active_month_bg = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int calendar_active_month_bg = 2131165184;
 			
-			// aapt resource value: 0x7f060001
-			public const int calendar_bg = 2131099649;
+			// aapt resource value: 0x7f070001
+			public const int calendar_bg = 2131165185;
 			
-			// aapt resource value: 0x7f060002
-			public const int calendar_divider = 2131099650;
+			// aapt resource value: 0x7f070002
+			public const int calendar_divider = 2131165186;
 			
-			// aapt resource value: 0x7f060003
-			public const int calendar_highlighted_day_bg = 2131099651;
+			// aapt resource value: 0x7f070003
+			public const int calendar_highlighted_day_bg = 2131165187;
 			
-			// aapt resource value: 0x7f060004
-			public const int calendar_inactive_month_bg = 2131099652;
+			// aapt resource value: 0x7f070004
+			public const int calendar_inactive_month_bg = 2131165188;
 			
-			// aapt resource value: 0x7f060005
-			public const int calendar_selected_day_bg = 2131099653;
+			// aapt resource value: 0x7f070005
+			public const int calendar_selected_day_bg = 2131165189;
 			
-			// aapt resource value: 0x7f060006
-			public const int calendar_selected_range_bg = 2131099654;
+			// aapt resource value: 0x7f070006
+			public const int calendar_selected_range_bg = 2131165190;
 			
-			// aapt resource value: 0x7f060007
-			public const int calendar_text_active = 2131099655;
+			// aapt resource value: 0x7f070007
+			public const int calendar_text_active = 2131165191;
 			
-			// aapt resource value: 0x7f060008
-			public const int calendar_text_highlighted = 2131099656;
+			// aapt resource value: 0x7f070008
+			public const int calendar_text_highlighted = 2131165192;
 			
-			// aapt resource value: 0x7f060009
-			public const int calendar_text_inactive = 2131099657;
+			// aapt resource value: 0x7f070009
+			public const int calendar_text_inactive = 2131165193;
 			
-			// aapt resource value: 0x7f06000a
-			public const int calendar_text_selected = 2131099658;
+			// aapt resource value: 0x7f07000a
+			public const int calendar_text_selected = 2131165194;
 			
-			// aapt resource value: 0x7f06000c
-			public const int calendar_text_selector = 2131099660;
+			// aapt resource value: 0x7f07000c
+			public const int calendar_text_selector = 2131165196;
 			
-			// aapt resource value: 0x7f06000b
-			public const int calendar_text_unselectable = 2131099659;
+			// aapt resource value: 0x7f07000b
+			public const int calendar_text_unselectable = 2131165195;
 			
 			static Color()
 			{
@@ -151,20 +167,20 @@ namespace LEDMATRIXCONTROLLER
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f070000
-			public const int calendar_day_headers_paddingbottom = 2131165184;
+			// aapt resource value: 0x7f080000
+			public const int calendar_day_headers_paddingbottom = 2131230720;
 			
-			// aapt resource value: 0x7f070001
-			public const int calendar_month_title_bottommargin = 2131165185;
+			// aapt resource value: 0x7f080001
+			public const int calendar_month_title_bottommargin = 2131230721;
 			
-			// aapt resource value: 0x7f070002
-			public const int calendar_month_topmargin = 2131165186;
+			// aapt resource value: 0x7f080002
+			public const int calendar_month_topmargin = 2131230722;
 			
-			// aapt resource value: 0x7f070003
-			public const int calendar_text_medium = 2131165187;
+			// aapt resource value: 0x7f080003
+			public const int calendar_text_medium = 2131230723;
 			
-			// aapt resource value: 0x7f070004
-			public const int calendar_text_small = 2131165188;
+			// aapt resource value: 0x7f080004
+			public const int calendar_text_small = 2131230724;
 			
 			static Dimension()
 			{
@@ -210,77 +226,80 @@ namespace LEDMATRIXCONTROLLER
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080004
-			public const int btn_date_cancel = 2131230724;
+			// aapt resource value: 0x7f090004
+			public const int btn_date_cancel = 2131296260;
 			
-			// aapt resource value: 0x7f080003
-			public const int btn_date_ok = 2131230723;
+			// aapt resource value: 0x7f090003
+			public const int btn_date_ok = 2131296259;
 			
-			// aapt resource value: 0x7f080013
-			public const int btn_resolution = 2131230739;
+			// aapt resource value: 0x7f090014
+			public const int btn_resolution = 2131296276;
 			
-			// aapt resource value: 0x7f080014
-			public const int btn_select_date = 2131230740;
+			// aapt resource value: 0x7f090015
+			public const int btn_select_date = 2131296277;
 			
-			// aapt resource value: 0x7f080015
-			public const int btn_send_date = 2131230741;
+			// aapt resource value: 0x7f090016
+			public const int btn_send_date = 2131296278;
 			
-			// aapt resource value: 0x7f08000c
-			public const int calendar_grid = 2131230732;
+			// aapt resource value: 0x7f09000d
+			public const int calendar_grid = 2131296269;
 			
-			// aapt resource value: 0x7f080005
-			public const int connect_button = 2131230725;
+			// aapt resource value: 0x7f090005
+			public const int connect_button = 2131296261;
 			
-			// aapt resource value: 0x7f080002
-			public const int datePicker1 = 2131230722;
+			// aapt resource value: 0x7f090002
+			public const int datePicker1 = 2131296258;
 			
-			// aapt resource value: 0x7f080000
-			public const int day_view_adapter_class = 2131230720;
+			// aapt resource value: 0x7f090000
+			public const int day_view_adapter_class = 2131296256;
 			
-			// aapt resource value: 0x7f080012
-			public const int edit_text_date = 2131230738;
+			// aapt resource value: 0x7f090013
+			public const int edit_text_date = 2131296275;
 			
-			// aapt resource value: 0x7f08000a
-			public const int img_btn_1 = 2131230730;
+			// aapt resource value: 0x7f09000b
+			public const int img_btn_1 = 2131296267;
 			
-			// aapt resource value: 0x7f080008
-			public const int list_of_bluetooth_spinner = 2131230728;
+			// aapt resource value: 0x7f09000a
+			public const int img_btn_refresh = 2131296266;
 			
-			// aapt resource value: 0x7f080009
-			public const int list_of_bluetooth_text_view = 2131230729;
+			// aapt resource value: 0x7f090008
+			public const int list_of_bluetooth_spinner = 2131296264;
 			
-			// aapt resource value: 0x7f080006
-			public const int password_text = 2131230726;
+			// aapt resource value: 0x7f090009
+			public const int list_of_bluetooth_text_view = 2131296265;
 			
-			// aapt resource value: 0x7f080007
-			public const int password_textview = 2131230727;
+			// aapt resource value: 0x7f090006
+			public const int password_text = 2131296262;
 			
-			// aapt resource value: 0x7f080001
-			public const int relativeLayout1 = 2131230721;
+			// aapt resource value: 0x7f090007
+			public const int password_textview = 2131296263;
 			
-			// aapt resource value: 0x7f08000e
-			public const int seek_bar_brightness = 2131230734;
+			// aapt resource value: 0x7f090001
+			public const int relativeLayout1 = 2131296257;
 			
-			// aapt resource value: 0x7f08000f
-			public const int seek_bar_speed = 2131230735;
+			// aapt resource value: 0x7f09000f
+			public const int seek_bar_brightness = 2131296271;
 			
-			// aapt resource value: 0x7f080011
-			public const int spn_resolution = 2131230737;
+			// aapt resource value: 0x7f090010
+			public const int seek_bar_speed = 2131296272;
 			
-			// aapt resource value: 0x7f08000b
-			public const int title = 2131230731;
+			// aapt resource value: 0x7f090012
+			public const int spn_resolution = 2131296274;
 			
-			// aapt resource value: 0x7f080017
-			public const int txt_brightness = 2131230743;
+			// aapt resource value: 0x7f09000c
+			public const int title = 2131296268;
 			
-			// aapt resource value: 0x7f080010
-			public const int txt_resolution = 2131230736;
+			// aapt resource value: 0x7f090018
+			public const int txt_brightness = 2131296280;
 			
-			// aapt resource value: 0x7f080016
-			public const int txt_set_date = 2131230742;
+			// aapt resource value: 0x7f090011
+			public const int txt_resolution = 2131296273;
 			
-			// aapt resource value: 0x7f08000d
-			public const int txt_speed = 2131230733;
+			// aapt resource value: 0x7f090017
+			public const int txt_set_date = 2131296279;
+			
+			// aapt resource value: 0x7f09000e
+			public const int txt_speed = 2131296270;
 			
 			static Id()
 			{
@@ -360,20 +379,20 @@ namespace LEDMATRIXCONTROLLER
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050004
-			public const int app_name = 2131034116;
+			// aapt resource value: 0x7f060004
+			public const int app_name = 2131099652;
 			
-			// aapt resource value: 0x7f050002
-			public const int day_name_format = 2131034114;
+			// aapt resource value: 0x7f060002
+			public const int day_name_format = 2131099650;
 			
-			// aapt resource value: 0x7f050003
-			public const int hello = 2131034115;
+			// aapt resource value: 0x7f060003
+			public const int hello = 2131099651;
 			
-			// aapt resource value: 0x7f050000
-			public const int invalid_date = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int invalid_date = 2131099648;
 			
-			// aapt resource value: 0x7f050001
-			public const int month_name_format = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int month_name_format = 2131099649;
 			
 			static String()
 			{
@@ -388,20 +407,20 @@ namespace LEDMATRIXCONTROLLER
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f090000
-			public const int CalendarCell = 2131296256;
+			// aapt resource value: 0x7f0a0000
+			public const int CalendarCell = 2131361792;
 			
-			// aapt resource value: 0x7f090001
-			public const int CalendarCell_CalendarDate = 2131296257;
+			// aapt resource value: 0x7f0a0001
+			public const int CalendarCell_CalendarDate = 2131361793;
 			
-			// aapt resource value: 0x7f090002
-			public const int CalendarCell_DayHeader = 2131296258;
+			// aapt resource value: 0x7f0a0002
+			public const int CalendarCell_DayHeader = 2131361794;
 			
-			// aapt resource value: 0x7f090003
-			public const int CalendarTitle = 2131296259;
+			// aapt resource value: 0x7f0a0003
+			public const int CalendarTitle = 2131361795;
 			
-			// aapt resource value: 0x7f090004
-			public const int button_text = 2131296260;
+			// aapt resource value: 0x7f0a0004
+			public const int button_text = 2131361796;
 			
 			static Style()
 			{

@@ -83,7 +83,8 @@
         p1:background="@drawable/round_button"
         p1:src="@mipmap/ic_refresh_black_24dp"
         p1:layout_marginTop="8dp"
-        p1:layout_below="@id/list_of_bluetooth_spinner" />
+        p1:layout_below="@id/list_of_bluetooth_spinner"
+        p1:id="@+id/img_btn_refresh" />
     <TextView
         p1:id="@+id/list_of_bluetooth_text_view"
         p1:text="Select from paired devices"
