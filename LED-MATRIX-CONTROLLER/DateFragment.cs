@@ -30,7 +30,7 @@ namespace LEDMATRIXCONTROLLER
         public void OnDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth)
         {
             var date = new DateTime(year, monthOfYear + 1, dayOfMonth);
-            View.FindViewById<TextView>(Resource.Id.edit_text_date).Text =  date.ToString("yyyy-MMM-dd");
+            View.FindViewById<TextView>(Resource.Id.edit_text_date).Text =  date.ToString("yyyy/MM/dd");
         }
     }
 }

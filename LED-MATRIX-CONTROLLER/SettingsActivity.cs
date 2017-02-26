@@ -13,7 +13,7 @@ using Square.TimesSquare;
 
 namespace LEDMATRIXCONTROLLER
 {
-    [Activity(Label = "SettingsActivity", MainLauncher = false, Icon = "@mipmap/icon")]
+    [Activity(Label = "SettingsActivity", MainLauncher = true, Icon = "@mipmap/icon")]
     public class SettingsActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

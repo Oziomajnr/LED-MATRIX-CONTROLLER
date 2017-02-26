@@ -6,17 +6,17 @@ using Android.Views.Animations;
 
 namespace LEDMATRIXCONTROLLER
 {
-	[Activity (Label = "LED-MATRIX-CONTROLLER", MainLauncher = true, Icon = "@mipmap/icon",ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
-	public class MainActivity : Activity
-	{
+    [Activity(Label = "LED-MATRIX-CONTROLLER", MainLauncher = false, Icon = "@mipmap/icon", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
+    public class MainActivity : Activity
+    {
         Android.App.ProgressDialog progress;
 
-        protected override void OnCreate (Bundle savedInstanceState)
-		{
-			base.OnCreate (savedInstanceState);
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
 
-			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
+            // Set our view from the "main" layout resource
+            SetContentView(Resource.Layout.Main);
             ImageButton img_btn_refresh = FindViewById<ImageButton>(Resource.Id.img_btn_refresh);
             var rotateAboutCenterAnimation = AnimationUtils.LoadAnimation(this, Resource.Animation.rotate_center);
 
@@ -24,13 +24,14 @@ namespace LEDMATRIXCONTROLLER
             {
 
                 img_btn_refresh.StartAnimation(rotateAboutCenterAnimation);
-                
+
             };
             // Get our button from the layout resource
             // and attach an event to it
-            Button button = FindViewById<Button> (Resource.Id.connect_button);
-           
-			    button.Click += delegate {
+            Button button = FindViewById<Button>(Resource.Id.connect_button);
+
+            button.Click += delegate
+            {
 
                 progress = new Android.App.ProgressDialog(this);
                 progress.Indeterminate = true;
@@ -40,8 +41,8 @@ namespace LEDMATRIXCONTROLLER
                 progress.SetTitle("Bleutooth");
                 progress.Show();
             };
-		}
-       
+        }
+
     }
 }
 
